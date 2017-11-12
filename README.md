@@ -1,6 +1,6 @@
 # Music Collection "Analyser" For Pablo
 
-- [Download MusicCollectionAnalyserCompiled.zip](https://github.com/TheTedster/MusicCollectionAnalyser/blob/master/MusicCollectionAnalyserCompiled.zip)
+- [Download MusicCollectionAnalyserCompiled.zip](https://github.com/TheTedster/MusicCollectionAnalyser/raw/master/MusicCollectionAnalyserCompiled.zip)
 - Unzip it to (for example) C:\Temp
 - Press Windows Key
 - Type `cmd` + Hit Enter
