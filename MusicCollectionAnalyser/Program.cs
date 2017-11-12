@@ -12,7 +12,7 @@ namespace MusicCollectionAnalyser
             var musicDir = new DirectoryInfo(Environment.GetFolderPath(Environment.SpecialFolder.MyMusic));
             ResultSort resultSort = ResultSort.ByAlbumCount;
 
-            foreach (var arg in args) //Environment.GetCommandLineArgs())
+            foreach (var arg in args)
             {
                 if (arg.Trim().StartsWith("alpha", StringComparison.CurrentCultureIgnoreCase))
                 {
@@ -63,8 +63,7 @@ namespace MusicCollectionAnalyser
             else
             {
                 Console.WriteLine("Folder '{0}' not found / acccessible", musicDir.FullName);
-            }
-            Console.ReadKey();            
+            }                 
         }
 
         private enum ResultSort
